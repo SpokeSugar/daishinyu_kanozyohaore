@@ -1,16 +1,35 @@
-# daishinyu_kanozyohaore
+# Oishii Pasta Player
 
-A new Flutter project.
+美味しいパスタを作ったお前、家庭的な女がタイプの俺一目惚れ。
+このフレーズを無限にリピート再生するためのアプリです。
 
-## Getting Started
+## 概要
 
-This project is a starting point for a Flutter application.
+このアプリは、ユーザーが選択したオーディオファイルの指定した区間をループ再生することができます。
+特に「美味しいパスタ作ったお前」のフレーズを繰り返し聞くために設計されていますが、他の用途にも使用可能です。
 
-A few resources to get you started if this is your first Flutter project:
+## 使い方
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. **音楽ファイルを選択**: 「Select Music」ボタンをタップして、デバイス内のオーディオファイルを選択します。
+2. **範囲を指定**: スライダーを使って、ループ再生したい区間（開始位置と終了位置）を設定します。
+3. **再生**: 再生ボタンを押すと、選択した区間がループ再生されます。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 注意事項
+
+*   **著作権について**: 本アプリには楽曲データは含まれていません。著作権法を遵守し、ご自身が所有する正規のオーディオファイルを使用してください。
+*   **ファイル形式**: 一般的なオーディオ形式（mp3, m4aなど）に対応していますが、デバイスやOSのバージョンによって異なる場合があります。
+
+## 開発者向け情報
+
+このプロジェクトはFlutterで作成されています。
+
+### 必要な環境
+
+*   Flutter SDK: >=3.0.0
+
+### セットアップ
+
+```bash
+flutter pub get
+flutter run
+```
